@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+.outer-container{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.outer-container img{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.75;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    position: absolute;
+    font-family: 'Fasthand';
+    width: 25vw;
+    background: linear-gradient(135deg, rgb(237, 127, 8),rgb(233, 210, 186));
+    /* background: #f69504; */
+    padding: 50px;
+    text-align: center;
+    margin: 10%;
+    border: 2px solid #f6f204;
+    border-radius: 20px;
+}
+
+#input-value{
+    font-family: 'Fasthand';
+    padding: 5px;
+    font-size: 16px;
+}
+#input-type{
+    font-family: 'Fasthand';
+    padding: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+#submit{
+    font-family: 'Fasthand';
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px;
+    
+} 
